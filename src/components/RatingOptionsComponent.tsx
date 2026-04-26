@@ -1,15 +1,13 @@
 import '../rating-options.css';
+import {useState} from "react";
 
 export function RatingOptionsComponent() {
     const maxRate = 5;
+    const [selectedRateId, setSelectedRateId] = useState<number>(0);
 
-    const ratingOptions = () => {
-        const result = [];
-        for (let i = 1; i <= maxRate; i++) {
-            result.push(<span className='rating-option' key={i}>{i}</span>);
-        }
-        return result;
-    }
-
-    return <>{ratingOptions()}</>;
+    return <>
+        {Array.from({ length: maxRate }, (_, i) => i + 1).map(num => (
+            <span className={`rating-option ${selectedRateId === num && 'selected'}`} onClick={() => setSelectedRateId(num)} key={num}>{num}</span>
+        ))}
+    </>;
 }

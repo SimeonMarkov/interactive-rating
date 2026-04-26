@@ -17,14 +17,20 @@ section {
     }
 }
 
-@media (min-width: var(--samsung-or-tablet-min-width)) {
+@media (min-width: 48rem) {
+    section {
+        width: 40vw;
+    }
+}
+
+@media (min-width: 64rem) {
     section {
         width: 35vw;
         padding: 2.5rem;
     }
 }
 
-@media (min-width: var(--samsung-or-tablet-min-width)) and (orientation: landscape) {
+@media (min-width: 64rem) and (orientation: landscape) {
     section {
         width: 30vw;
         padding: 2rem;
