@@ -9,7 +9,7 @@ createRoot(document.getElementById('root')!).render(
   <StrictMode>
       <BrowserRouter>
           <Routes>
-              <Route path="/" element={<App />} />
+              <Route path="/interactive-rating" element={<App />} />
               <Route path="/thanks" element={<ThankYouComponent maxRate={5} />} />
           </Routes>
       </BrowserRouter>

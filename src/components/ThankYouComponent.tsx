@@ -14,7 +14,7 @@ export function ThankYouComponent({maxRate}: RateInfo) {
     return (
       <section className='thank-you-container'>
           <span>
-              <img src='/illustration-thank-you.svg' alt="Thank you image"/>
+              <img src='/interactive-rating/illustration-thank-you.svg' alt="Thank you image"/>
           </span>
           <span className='choice-label'>You selected {selectedRate} out of {maxRate}</span>
           <h1>Thank you!</h1>
