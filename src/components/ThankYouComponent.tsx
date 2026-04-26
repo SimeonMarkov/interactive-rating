@@ -12,7 +12,7 @@ export function ThankYouComponent({maxRate}: RateInfo) {
     const selectedRate = location.state?.selectedRate;
 
     return (
-      <section>
+      <section className='thank-you-container'>
           <span>
               <img src='/illustration-thank-you.svg' alt="Thank you image"/>
           </span>
