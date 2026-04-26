@@ -1,0 +1,20 @@
+:root {
+  --almost-black: #37353e;
+  --samsung-or-tablet-min-width:L 64.0625rem;
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: 'Overpass', sans-serif;
+}
+
+body {
+  background-color: black;
+  color: white;
+}
+
+p {
+  color: darkgray;
+}

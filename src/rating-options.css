@@ -1,0 +1,25 @@
+.rating-options-container {
+    display: flex;
+    gap: 1rem;
+    width: 100%;
+    height: fit-content;
+    justify-content: space-between;
+}
+
+.rating-option {
+    background-color: var(--almost-black);
+    text-align: center;
+    color: darkgray;
+    width: 3rem;
+    height: 3rem;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    &:hover {
+        background-color: orange;
+        color: black;
+        cursor: pointer;
+    }
+}

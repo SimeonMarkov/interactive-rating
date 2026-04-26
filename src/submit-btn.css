@@ -1,0 +1,16 @@
+.submit-btn {
+    background-color: darkorange;
+    color: black;
+    border: none;
+    padding: 1rem;
+    border-radius: 10rem;
+    margin-block-end: 2rem;
+    text-transform: uppercase;
+    font-weight: bold;
+    letter-spacing: 0.2rem;
+
+    &:hover {
+        background-color: orange;
+        cursor: pointer;
+    }
+}
