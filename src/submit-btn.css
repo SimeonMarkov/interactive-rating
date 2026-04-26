@@ -10,7 +10,11 @@
     letter-spacing: 0.2rem;
 
     &:hover {
-        background-color: orange;
+        background-color: white;
         cursor: pointer;
+    }
+
+    &:disabled {
+        cursor: not-allowed;
     }
 }
