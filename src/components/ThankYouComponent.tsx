@@ -2,7 +2,7 @@ import {useLocation} from "react-router";
 import '../thank-you.css';
 
 type RateInfo = {
-    selectedRate: number,
+    selectedRate?: number,
     maxRate: number
 }
 
